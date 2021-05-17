@@ -1,0 +1,32 @@
+Marrakesh-Safi
+    Marrakesh
+	Safi
+	El Kelaa Des Sraghna
+	Ben Guerir
+	Essaouira
+	Youssoufia
+
+Casablanca-Settat
+    Casablanca
+	Mohammedia
+	El Jadida
+	Dar Bouazza
+	Settat
+	Berrechid
+	Bouskoura
+	Lahraouyin
+	Ain Harroud
+	Bensliman
+	Sidi Bennour
+
+Rabat-Salé-Kénitra
+    Salé	
+	Rabat	
+	Kenitra	
+	Temara	
+	Khemisset	
+	Sidi Slimane
+	Tifelt
+	Sidi Kacem
+	Souk El Arbaa
+	Skhirat

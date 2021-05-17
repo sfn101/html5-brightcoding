@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  float: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body{
+  font-family: basic-sans, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: #333;
+  padding: 2em;
+}
+
+em {
+  font-style: italic;
+  font-weight: 300;
+}
+strong {
+  font-weight: 700;
+}
+h1 {
+  font-size: 46px;
+  font-weight: 300;
+  margin: 40px 0px 10px 25px;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 40px 0px 10px 25px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 40px 0px 10px 25px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 25px 0px 10px 25px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 25px 0px 10px 25px;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 25px 0px 10px 25px;
+}
+
+p,
+s,
+u {
+  font-size: 21px;
+  font-weight: 400;
+  margin: 50px 250px 5px 25px;
+}
+small {
+  font-size: 10;
+  font-weight: 300;
+  margin: 30px 250px 5px 25px;
+  display: inline-block;
+}
+
+ul {
+  list-style: disc;
+  margin: 0px 0px 25px 78px;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 4px 15px 0px 0px;
+}
+
+ol {
+  margin: 0px 0px 25px 78px;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 4px 15px 0px 0px;
+}
+
+blockquote {
+  width: 60%;
+  margin: 50px auto;
+  position: relative;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #202020;
+  line-height: 1.6;
+  position: relative;
+  background: #ededed;
+}
+figcaption {
+  font-size: 12;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 500px;
+}
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: #202020;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote::after {
+  content: "";
+}
+blockquote p {
+  display: inline;
+}
+table {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  color: #333;
+  background: white;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+table thead th {
+  color: #777;
+  background: rgba(0, 0, 0, 0.1);
+}
+table caption {
+  padding: 0.5em;
+}
+table th,
+table td {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+}
+code {
+  padding: 25px;
+  font-family: monospace;
+  font-size: 20px;
+}
+pre code {
+  display: block;
+  background: #f2f2f2f2;
+  white-space: pre;
+  margin: 10px 200px 5px 50px;
+  border-left: 5px solid #054970;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px auto;
+  width: 20%;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  clear: both;
+  overflow: hidden;
+}
+form input[type="text"] {
+  border: 1px solid #202020;
+  height: 30px;
+  width: 100%;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+form label {
+  display: none;
+}
+form input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: content-box;
+}
+
+form input[type="submit"]:hover {
+  background: #43a047;
+  -webkit-transition: background 0.3s;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+
